@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5749da70-2fbd-4c49-87a3-cc0ae131af5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnnevaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnnevaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnnprediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnnprediction.py" afterDir="false" />
+    <list default="true" id="5749da70-2fbd-4c49-87a3-cc0ae131af5a" name="Default Changelist" comment="Update cnnevaluation and cnnprediction">
+      <change beforePath="$PROJECT_DIR$/random1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random5.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnnevaluation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1020">
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnnprediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            <state relative-caret-position="799">
+              <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
               <folding>
                 <element signature="e#1#41#0" expanded="true" />
               </folding>
@@ -293,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559640960289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update cnnevaluation and cnnprediction">
+      <created>1559644562883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559644562884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -314,13 +323,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49970743" weight="0.3289166" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61532736" visible="true" weight="0.24551831" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61532736" weight="0.24551831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289166" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289166" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3846726" side_tool="true" weight="0.43010753" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.52471083" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Project" />
+    <MESSAGE value="Update cnnevaluation and cnnprediction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cnnevaluation and cnnprediction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,22 +463,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnnprediction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnnevaluation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="89" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnnprediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
