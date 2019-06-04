@@ -20,31 +20,6 @@ def f1_m(y_true, y_pred):
     recall = recall_m(y_true, y_pred)
     return 2 * ((precision * recall) / (precision + recall + K.epsilon()))
 
-def tp_m(y_true, y_pred):
-    y_pred_pos = K.round(K.clip(y_pred, 0, 1))
-    y_pos = K.round(K.clip(y_true, 0, 1))
-    tp = K.sum(y_pos * y_pred_pos)
-    return tp
-
-def tn_m(y_true, y_pred):
-    y_pred_neg = 1 - K.round(K.clip(y_pred, 0, 1))
-    y_neg = 1 - K.round(K.clip(y_true, 0, 1))
-    tn = K.sum(y_neg * y_pred_neg)
-    return tn
-
-def fp_m(y_true, y_pred):
-    y_pred_pos = K.round(K.clip(y_pred, 0, 1))
-    y_neg = 1 - K.round(K.clip(y_true, 0, 1))
-    fp = K.sum(y_neg * y_pred_pos)
-    return fp
-
-def fn_m(y_true, y_pred):
-    y_pred_neg = 1 - K.round(K.clip(y_pred, 0, 1))
-    y_pos = K.round(K.clip(y_true, 0, 1))
-    fn = K.sum(y_pos * y_pred_neg)
-    return fn
-
-
 def confusion_matrix(y_true, y_pred):
     y_pred_pos = K.round(K.clip(y_pred, 0, 1))
     y_pred_neg = 1 - y_pred_pos
@@ -83,7 +58,7 @@ jsonfile.close()
 
 loadedmodel = model_from_json(loadedmodeljson)
 loadedmodel.load_weights('malaria_model.h5')
-loadedmodel.compile(optimizer='adam', loss = 'binary_crossentropy', metrics=['accuracy', tp_m, tn_m, fp_m, fn_m, confusion_matrix, recall_m, precision_m, f1_m])
+loadedmodel.compile(optimizer='adam', loss = 'binary_crossentropy', metrics=['accuracy', confusion_matrix, recall_m, precision_m, f1_m])
 
 print("input data size : %d" % (len(labeldata)))
 
